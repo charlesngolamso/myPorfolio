@@ -18,7 +18,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-1xl font-bold text-white tracking-wider'>
                         Game of Life (React.js)
                         </span>
 
@@ -37,7 +37,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${pm})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-1xl font-bold text-white tracking-wider'>
                             Password Manager (Python, SQL)
                         </span>
 
