@@ -84,7 +84,7 @@ const Navbar = () => {
 				<ul>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
 						<a className='flex justify-between items-center w-full text-gray-300' 
-						href='www.linkedin.com/in/charles-ngolamso'>
+						target="_blank" href='https://linkedin.com/in/charles-ngolamso'>
 							Linkedin <FaLinkedin size={30} />
 						</a>
 					</li>
@@ -95,13 +95,13 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-						<a className='flex justify-between items-center w-full text-gray-300' 
-						href='charlessoworkacc@gmail.com'>
-							Email <HiOutlineMail size={30} />
-						</a>
+						<Link className='flex justify-between items-center w-full text-gray-300' to="contact" smooth={true} duration={500}>
+							Contact me <HiOutlineMail size={30} />
+        				</Link>
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-						<a className='flex justify-between items-center w-full text-gray-300' href='/'>
+						<a className='flex justify-between items-center w-full text-gray-300' 
+						href='https://drive.google.com/file/d/16s_dup_YZMY2S0-PRXMauUGYnOadO-AQ/view?usp=sharing'>
 							Resume <BsPersonLinesFill size={30} />
 						</a>
 					</li>
